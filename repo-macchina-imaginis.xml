@@ -4,7 +4,7 @@
   <remote name="SigiMcArcel" fetch="https://github.com/SigiMcArcel" />
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
   <remote name="openembedded" fetch="https://github.com/openembedded/" />
-  <remote name="rasperrypi" fetch="https://github.com/agherzan/" />
+  <remote name="raspberrypi" fetch="https://github.com/agherzan/" />
   <!-- Standard-Remote und Revision -->
   <default remote="yocto" revision="kirkstone" />
 
