@@ -4,7 +4,7 @@
   <remote name="SigiMcArcel" fetch="https://github.com/SigiMcArcel" />
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
   <remote name="openembedded" fetch="https://github.com/openembedded/" />
-
+  <remote name="rasperrypi" fetch="https://github.com/agherzan/meta-raspberrypi.git" />
   <!-- Standard-Remote und Revision -->
   <default remote="yocto" revision="kirkstone" />
 
@@ -15,7 +15,7 @@
   <!-- Zusätzliche Meta-Layers -->
   <project name="meta-macchinaimaginis" path="source/meta-macchinaimaginis" remote="SigiMcArcel" revision="main" />
   <project name="meta-openembedded" path="source/meta-openembedded" revision="dunfell" />
-  <project name="meta-raspberry-pi" path="source/meta-raspberry-pi" remote="github" revision="master" />
+  <project name="meta-raspberry-pi" path="source/meta-raspberry-pi" remote="rasperrypi" revision="master" />
   
   <!-- Weitere Projekte nach Bedarf hinzufügen -->
 </manifest>
