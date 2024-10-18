@@ -15,7 +15,7 @@
   <!-- Zusätzliche Meta-Layers -->
   <project name="meta-macchinaimaginis" path="source/meta-macchinaimaginis" remote="SigiMcArcel" revision="main" />
   <project name="meta-openembedded" path="source/meta-openembedded" revision="kirkstone" />
-  <project name="meta-raspberry-pi" path="source/meta-raspberry-pi" remote="rasperrypi" revision="master" />
+  <project name="meta-raspberry-pi" path="source/meta-raspberry-pi" remote="raspberrypi" revision="master" />
   
   <!-- Weitere Projekte nach Bedarf hinzufügen -->
 </manifest>
