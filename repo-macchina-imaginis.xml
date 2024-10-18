@@ -2,7 +2,7 @@
 <manifest>
   <!-- Definition der Remotes -->
   <remote name="SigiMcArcel" fetch="https://github.com/SigiMcArcel" />
-  <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
+  <remote name="yocto" fetch=" https://github.com/yoctoproject/" />
   <remote name="openembedded" fetch="https://github.com/openembedded/" />
   <remote name="raspberrypi" fetch="https://github.com/agherzan/" />
   <!-- Standard-Remote und Revision -->
@@ -10,12 +10,12 @@
 
   <!-- Projekte definieren -->
   <!-- Poky - Haupt-Repository von Yocto -->
-  <project name="poky" path="source/" revision="git" />
+  <project name="poky" path="source/" revision="kirkstone" />
 
   <!-- Zusätzliche Meta-Layers -->
   <project name="meta-macchinaimaginis" path="source/meta-macchinaimaginis" remote="SigiMcArcel" revision="main" />
   <project name="meta-openembedded" path="source/meta-openembedded" revision="kirkstone" />
-  <project name="meta-raspberry-pi" path="source/meta-raspberry-pi" remote="raspberrypi" revision="master" />
+  <project name="meta-raspberrypi" path="source/meta-raspberrypi" remote="raspberrypi" revision="master" />
   
   <!-- Weitere Projekte nach Bedarf hinzufügen -->
 </manifest>
